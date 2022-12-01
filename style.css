@@ -79,5 +79,17 @@ body{
     font-weight: 700;
 }
 
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.message{
+    font-size: small;
+    color: #ac0c0ca9;
+    width: 30%;
+}
 

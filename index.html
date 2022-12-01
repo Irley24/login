@@ -12,18 +12,22 @@
     <title>Login</title>
 </head>
 <body>
+  
   <div class="container">
     <div class="containerInput">
         <h1 class="text">Log In</h1>
-        
+      <form action="" class="form" onsubmit="validateMail(event)">  
         <input type="email" name="user" id="user" class="field">
         
         <input type="password" name="pass" id="pass" class="field">  
       
-        <input type="button" value="Log in" class="field button">
-        
+        <input type="submit" value="Log in" class="field button" id="login">
+
+        <h1 class="message" id="message"></h1>
+      </form>  
         <a href="" class="register">or, sign up</a> 
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
